@@ -3,7 +3,11 @@ const mongoosePaginate = require("mongoose-paginate");
 
 const SessionSchema = new mongoose.Schema({
   movie: String,
-  desc: String,
+  overview: String,
+  crew: String,
+  genres: String,
+  duration: Number,
+  certification: Number,
   day: String,
   hour: String
 });
