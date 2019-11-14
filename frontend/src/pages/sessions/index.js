@@ -50,8 +50,7 @@ export default class Sessions extends Component {
         {sessions.map(session => (
           <article key={session._id}>
             <strong>{session.movie}</strong>
-            <p>{session.desc}</p>
-
+            <p>{session.overview}</p>
             <Link to={`/sessions/${session._id}`}>Acessar</Link>
           </article>
         ))}
