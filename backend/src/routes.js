@@ -7,7 +7,8 @@ const routes = express.Router();
 
 routes.get("/theaters", TheaterController.index);
 routes.get("/theaters/:id", TheaterController.show);
-routes.post("/sessions/:session_id/theaters", TheaterController.store);
+routes.post("/theaters", TheaterController.store);
+routes.post("/theaters/:session_id", TheaterController.store);
 routes.put("/theaters/:id", TheaterController.update);
 routes.delete("/theaters/:id", TheaterController.destroy);
 
