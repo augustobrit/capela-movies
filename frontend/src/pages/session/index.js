@@ -22,16 +22,12 @@ export default class Session extends Component {
     return (
       <div className="session-info">
         <h1>{session.movie}</h1>
-        <p>{session.crew}</p>
-        <p>{session.genres}</p>
-        <p>{session.duration}</p>
-        <p>{session.certification}</p>
-        <p>{session.day}</p>
-        <p>{session.hour}</p>
-
-        <p>
-          URL: <a href={session.url}>{session.url}</a>
-        </p>
+        <p>Elenco: {session.crew}</p>
+        <p>Genero: {session.genres}</p>
+        <p>Duração: {session.duration} min.</p>
+        <p>Classificação: {session.certification} anos</p>
+        <p>Data: {session.day}</p>
+        <p>Horário: {session.hour}</p>
       </div>
     );
   }

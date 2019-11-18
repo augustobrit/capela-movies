@@ -50,6 +50,9 @@ export default class Sessions extends Component {
         {sessions.map(session => (
           <article key={session._id}>
             <strong>{session.movie}</strong>
+            <header
+              style={{ backgroundImage: `url(${session.thumbnail_url})` }}
+            />
             <p>{session.overview}</p>
             <Link to={`/sessions/${session._id}`}>Acessar</Link>
           </article>
