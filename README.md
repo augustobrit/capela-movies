@@ -2,11 +2,11 @@
     CAPELA MOVIES
 </h1>
 
-### 💻 About
+### 📝 About
 
 A simple theater and movies application developed for a technical test.
 
-### 🔖 Technologies
+### 🧰 Technologies
 
 This project was developed with the following technologies.
 
@@ -16,7 +16,7 @@ This project was developed with the following technologies.
 - [Insomnia](https://insomnia.rest)
 - [Express](https://expressjs.com/)
 
-### 🔖 Install
+### 💻 Install
 
 Just follow the steps bellow.
 
