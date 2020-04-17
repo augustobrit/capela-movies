@@ -2,11 +2,11 @@
     CAPELA MOVIES
 </h1>
 
-## 💻 About
+### 💻 About
 
 A simple theater and movies application developed for a technical test.
 
-## 🔖 Technologies
+### 🔖 Technologies
 
 This project was developed with the following technologies.
 
@@ -16,11 +16,11 @@ This project was developed with the following technologies.
 - [Insomnia](https://insomnia.rest)
 - [Express](https://expressjs.com/)
 
-## 🔖 Install
+### 🔖 Install
 
 Just follow the steps bellow.
 
-- Clone
+- **Clone**
 
   Clone this repo to your local machine using the following link.
 
@@ -28,7 +28,7 @@ Just follow the steps bellow.
   git clone https://github.com/augustobrit/capela-movies
   ```
 
-- Setup
+- **Setup**
 
   Now you need to run npm install command.
 
@@ -36,11 +36,11 @@ Just follow the steps bellow.
   npm install
   ```
 
-- Run
+- **Run**
 
   To run the project you need to follow the steps bellow.
 
-  - Backend
+  - _Backend_
 
     > Make sure you are inside `backend` directory
 
@@ -49,15 +49,11 @@ Just follow the steps bellow.
     yarn dev
     ```
 
-* Frontend and Mobile
+  - _Frontend and Mobile_
 
-  > Make sure you are inside `frontend` or `mobile` directory
+    > Make sure you are inside `frontend` or `mobile` directory
 
-  ```shell
-  cd frontend || cd mobile
-  yarn start
-  ```
-
-## 🔖 License
-
----
+    ```shell
+    cd frontend || cd mobile
+    yarn start
+    ```
